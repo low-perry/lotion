@@ -2,9 +2,8 @@
 
 import { ChevronsLeft, MenuIcon, Plus, PlusCircle, Search, Settings, Trash } from "lucide-react";
 import { useParams, usePathname, useRouter } from "next/navigation";
-import { ElementRef, use, useEffect, useRef, useState } from "react";
+import { ElementRef, useEffect, useRef, useState } from "react";
 import { useMediaQuery } from "usehooks-ts";
-
 import { cn } from "@/lib/utils";
 import { UserItem } from "./user-item";
 import { useMutation } from "convex/react";
